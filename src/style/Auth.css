@@ -1,0 +1,49 @@
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 0px;
+    /* margin-top: 100px; */
+}
+
+.auth-form input {
+    margin-bottom: 16px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    background-color: rgb(255 ,255 ,255);
+}
+
+h2 {
+    margin-left: 300px;
+    margin-top: 50px;
+
+}
+
+.viewRegister {
+    min-width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ 
+}
+.backVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:1px;
+    z-index:-1;
+}
+
+.viewLogin {
+    min-width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    background-image:linear-gradient(to right,rgb(29 29 120 / 50%), rgb(176 176 191 / 50%)),url(https://images.pexels.com/photos/995686/pexels-photo-995686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+ 
+}
+

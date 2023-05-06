@@ -1,0 +1,40 @@
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 16px 32px;
+    margin-bottom: -15px;
+    font-size: 20px;
+    color: brown;
+   margin-top: -15px;
+}
+
+
+ul > li:first-of-type {
+    margin-right: auto;
+    font-size: 20px;
+    color: brown;
+
+   
+}
+.nav-image {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 18px;
+   
+   
+}
+
+.nav-item {
+    margin-left: 20px;
+    font-size: 20px;
+    color: brown;
+   
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.74);
+    color: brown;
+    height: 10%;
+
+}
